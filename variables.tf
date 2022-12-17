@@ -5,16 +5,16 @@ terraform {
       version = "3.36.0"
     }
   }
-}
-
-provider "azurerm" {
-  features {
-  }
-}
-backend "romote"{
+  backend "romote"{
   organization = "Faisal_Deop"
 
   workspace {
  name="TerraformTest"
+  }
+}
+}
+
+provider "azurerm" {
+  features {
   }
 }
