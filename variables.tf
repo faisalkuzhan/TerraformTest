@@ -1,4 +1,4 @@
 variable "rg_name" {
-  defoult ="TerraformTest"
+  defoult ="test"
   type =string
 }
