@@ -1,4 +1,4 @@
 variable "rg_name" {
-  defoult ="test"
+  default ="test"
   type =string
 }
